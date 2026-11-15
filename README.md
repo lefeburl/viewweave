@@ -12,7 +12,7 @@ Pages statiques pour App Store Connect / Play Console.
 
 ## Avant publication
 
-1. Remplace `support@viewweave.app` par **ton vrai e-mail** dans `support.html` et `privacy.html`.
+1. Contact support : `viewweave78@gmail.com` (déjà dans les pages).
 2. Relis la privacy : elle doit coller aux réponses « Confidentialité de l’app » dans App Store Connect.
 
 ## Publier (GitHub Pages)
