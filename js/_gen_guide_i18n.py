@@ -221,7 +221,9 @@ def build_from_strings(S: dict) -> dict:
             "s9",
             S["s9_t"],
             f"<p>{S['s9_intro']}</p>"
-            + f"<h3>{S['s9_mosaic']}</h3><p>{S['s9_mosaic_p']}</p>"
+            + f"<h3>{S['s9_mosaic']}</h3>"
+            + img("07_mosaic.png", S.get("alt_mosaic", "Mosaic"))
+            + f"<p>{S['s9_mosaic_p']}</p>"
             + table(
                 [S["h_tool"], S["h_role"]],
                 [
@@ -233,9 +235,13 @@ def build_from_strings(S: dict) -> dict:
                 ],
             )
             + f"<p>{S['mosaic_audio']}</p>"
-            + f"<h3>{S['s9_session']}</h3><p>{S['s9_session_p']}</p>"
+            + f"<h3>{S['s9_session']}</h3>"
+            + img("08_session.png", S.get("alt_session", "Session"))
+            + f"<p>{S['s9_session_p']}</p>"
             + f"<p>{S['s9_session_note']}</p>"
-            + f"<h3>{S['s9_cuts']}</h3><p>{S['s9_cuts_p']}</p>"
+            + f"<h3>{S['s9_cuts']}</h3>"
+            + img("09_cuts.png", S.get("alt_cuts", "Cuts"))
+            + f"<p>{S['s9_cuts_p']}</p>"
             + table(
                 [S["h_need"], S["h_tab"]],
                 [
