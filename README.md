@@ -8,8 +8,14 @@ Pages statiques pour App Store Connect / Play Console.
 |---|---|
 | `support.html` | **URL de l’assistance** (point d’entrée) |
 | `privacy.html` | **URL de la Politique de confidentialité** (point d’entrée) |
-| `index.html` | Hub optionnel |
-| `js/i18n.js` | Traductions (mêmes langues que l’app) |
+| `index.html` | Hub (legal + lien guide) |
+| `guide/index.html` | Guide utilisateur (16 langues) + captures |
+| `guide/assets/{locale}/` | Captures UI (home/create/waiting/join/library/license) |
+| `headers/` | Bannières App Store (par langue) en tête des pages |
+| `thumbs/` | Miniatures des vidéos (popup lecture) |
+| `*.MP4` | Vidéos du parcours (racine `docs/legal/`) |
+| `js/i18n.js` | Traductions legal/support/privacy |
+| `js/guide_i18n.js` | Traductions du guide |
 | `js/legal.js` | Sélecteur de langue + rendu |
 
 ## Langues

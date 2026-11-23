@@ -8,7 +8,9 @@
       "Rechtliches & Support",
       "Öffentliche Seiten für App Store / Play.",
       "Support:",
-      "Datenschutz:"
+      "Datenschutz:",
+      "Handbuch",
+      "Handbuch:"
     ],
     "index_tag": "Multi-Kamera-Aufnahme im lokalen WLAN — ohne Cloud.",
     "privacy": {
@@ -63,7 +65,9 @@
       "Legal y asistencia",
       "Páginas públicas para las fichas de App Store / Play.",
       "Asistencia:",
-      "Privacidad:"
+      "Privacidad:",
+      "Guía",
+      "Guía:"
     ],
     "index_tag": "Grabación multicámara en Wi‑Fi local — sin nube.",
     "privacy": {
@@ -118,7 +122,9 @@
       "Note legali e assistenza",
       "Pagine pubbliche per le schede App Store / Play.",
       "Assistenza:",
-      "Privacy:"
+      "Privacy:",
+      "Guida",
+      "Guida:"
     ],
     "index_tag": "Riprese multi-camera su Wi‑Fi locale — senza cloud.",
     "privacy": {
@@ -173,7 +179,9 @@
       "Juridisch & ondersteuning",
       "Openbare pagina’s voor App Store / Play.",
       "Ondersteuning:",
-      "Privacy:"
+      "Privacy:",
+      "Handleiding",
+      "Handleiding:"
     ],
     "index_tag": "Multi-camera-opname op lokaal wifi — zonder cloud.",
     "privacy": {
@@ -228,7 +236,9 @@
       "Informacje prawne i wsparcie",
       "Publiczne strony do listingów App Store / Play.",
       "Wsparcie:",
-      "Prywatność:"
+      "Prywatność:",
+      "Przewodnik",
+      "Przewodnik:"
     ],
     "index_tag": "Nagrywanie wieloma kamerami w lokalnej sieci Wi‑Fi — bez chmury.",
     "privacy": {
@@ -283,7 +293,9 @@
       "Informações legais e assistência",
       "Páginas públicas para as fichas da App Store / Play.",
       "Assistência:",
-      "Privacidade:"
+      "Privacidade:",
+      "Guia",
+      "Guia:"
     ],
     "index_tag": "Filmagem multi-câmara em Wi‑Fi local — sem cloud.",
     "privacy": {
@@ -338,7 +350,9 @@
       "Informações legais e suporte",
       "Páginas públicas para as fichas da App Store / Play.",
       "Suporte:",
-      "Privacidade:"
+      "Privacidade:",
+      "Guia",
+      "Guia:"
     ],
     "index_tag": "Filmagem multicâmera em Wi‑Fi local — sem nuvem.",
     "privacy": {
@@ -393,7 +407,9 @@
       "Νομικά & υποστήριξη",
       "Δημόσιες σελίδες για καταχωρίσεις App Store / Play.",
       "Υποστήριξη:",
-      "Απόρρητο:"
+      "Απόρρητο:",
+      "Οδηγός",
+      "Οδηγός:"
     ],
     "index_tag": "Πολυκάμερα λήψη σε τοπικό Wi‑Fi — χωρίς cloud.",
     "privacy": {
@@ -448,7 +464,9 @@
       "Yasal & destek",
       "App Store / Play listeleme için herkese açık sayfalar.",
       "Destek:",
-      "Gizlilik:"
+      "Gizlilik:",
+      "Kılavuz",
+      "Kılavuz:"
     ],
     "index_tag": "Yerel Wi‑Fi’de çok kameralı çekim — bulut yok.",
     "privacy": {
@@ -503,7 +521,9 @@
       "法的情報とサポート",
       "App Store / Play掲載用の公開ページ。",
       "サポート:",
-      "プライバシー:"
+      "プライバシー:",
+      "ガイド",
+      "ガイド:"
     ],
     "index_tag": "ローカルWi‑Fiでのマルチカメラ撮影 — クラウドなし。",
     "privacy": {
@@ -558,7 +578,9 @@
       "법률 및 지원",
       "App Store / Play 등록용 공개 페이지.",
       "지원:",
-      "개인정보:"
+      "개인정보:",
+      "가이드",
+      "가이드:"
     ],
     "index_tag": "로컬 Wi‑Fi 멀티 카메라 촬영 — 클라우드 없음.",
     "privacy": {
@@ -613,7 +635,9 @@
       "ข้อมูลทางกฎหมายและการสนับสนุน",
       "หน้าสาธารณะสำหรับรายการ App Store / Play",
       "การสนับสนุน:",
-      "ความเป็นส่วนตัว:"
+      "ความเป็นส่วนตัว:",
+      "คู่มือ",
+      "คู่มือ:"
     ],
     "index_tag": "ถ่ายหลายกล้องบน Wi‑Fi ในเครื่อง — ไม่มีคลาวด์",
     "privacy": {
@@ -668,7 +692,9 @@
       "法律与支持",
       "面向 App Store / Play 上架的公开页面。",
       "支持：",
-      "隐私："
+      "隐私：",
+      "指南",
+      "指南："
     ],
     "index_tag": "本地 Wi‑Fi 多机位拍摄 — 无云端。",
     "privacy": {
@@ -723,7 +749,9 @@
       "法律與支援",
       "供 App Store / Play 上架用的公開頁面。",
       "支援：",
-      "隱私："
+      "隱私：",
+      "指南",
+      "指南："
     ],
     "index_tag": "本地 Wi‑Fi 多機位拍攝 — 無雲端。",
     "privacy": {

@@ -71,6 +71,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Home",
       "nav_support": "Support",
       "nav_privacy": "Privacy Policy",
+      "nav_guide": "Guide",
       "lang_label": "Language",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -79,7 +80,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Legal & support",
       "index_lead": "Public pages for App Store / Play listing.",
       "index_support_strong": "Support:",
-      "index_privacy_strong": "Privacy:"
+      "index_privacy_strong": "Privacy:",
+      "index_guide_strong": "Guide:"
     },
     "index": {
       "tag": "Multi-camera filming on local Wi‑Fi — no cloud."
@@ -132,6 +134,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Accueil",
       "nav_support": "Assistance",
       "nav_privacy": "Politique de confidentialité",
+      "nav_guide": "Guide",
       "lang_label": "Langue",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -140,7 +143,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Mentions légales & assistance",
       "index_lead": "Pages publiques pour les fiches App Store / Play.",
       "index_support_strong": "Assistance :",
-      "index_privacy_strong": "Confidentialité :"
+      "index_privacy_strong": "Confidentialité :",
+      "index_guide_strong": "Guide :"
     },
     "index": {
       "tag": "Captation multi-caméras en Wi‑Fi local — sans cloud."
@@ -193,6 +197,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Start",
       "nav_support": "Support",
       "nav_privacy": "Datenschutzrichtlinie",
+      "nav_guide": "Handbuch",
       "lang_label": "Sprache",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -201,7 +206,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Rechtliches & Support",
       "index_lead": "Öffentliche Seiten für App Store / Play.",
       "index_support_strong": "Support:",
-      "index_privacy_strong": "Datenschutz:"
+      "index_privacy_strong": "Datenschutz:",
+      "index_guide_strong": "Handbuch:"
     },
     "index": {
       "tag": "Multi-Kamera-Aufnahme im lokalen WLAN — ohne Cloud."
@@ -254,6 +260,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Inicio",
       "nav_support": "Asistencia",
       "nav_privacy": "Política de privacidad",
+      "nav_guide": "Guía",
       "lang_label": "Idioma",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -262,7 +269,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Legal y asistencia",
       "index_lead": "Páginas públicas para las fichas de App Store / Play.",
       "index_support_strong": "Asistencia:",
-      "index_privacy_strong": "Privacidad:"
+      "index_privacy_strong": "Privacidad:",
+      "index_guide_strong": "Guía:"
     },
     "index": {
       "tag": "Grabación multicámara en Wi‑Fi local — sin nube."
@@ -315,6 +323,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Home",
       "nav_support": "Assistenza",
       "nav_privacy": "Informativa sulla privacy",
+      "nav_guide": "Guida",
       "lang_label": "Lingua",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -323,7 +332,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Note legali e assistenza",
       "index_lead": "Pagine pubbliche per le schede App Store / Play.",
       "index_support_strong": "Assistenza:",
-      "index_privacy_strong": "Privacy:"
+      "index_privacy_strong": "Privacy:",
+      "index_guide_strong": "Guida:"
     },
     "index": {
       "tag": "Riprese multi-camera su Wi‑Fi locale — senza cloud."
@@ -376,6 +386,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Home",
       "nav_support": "Ondersteuning",
       "nav_privacy": "Privacybeleid",
+      "nav_guide": "Handleiding",
       "lang_label": "Taal",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -384,7 +395,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Juridisch & ondersteuning",
       "index_lead": "Openbare pagina’s voor App Store / Play.",
       "index_support_strong": "Ondersteuning:",
-      "index_privacy_strong": "Privacy:"
+      "index_privacy_strong": "Privacy:",
+      "index_guide_strong": "Handleiding:"
     },
     "index": {
       "tag": "Multi-camera-opname op lokaal wifi — zonder cloud."
@@ -437,6 +449,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Strona główna",
       "nav_support": "Wsparcie",
       "nav_privacy": "Polityka prywatności",
+      "nav_guide": "Przewodnik",
       "lang_label": "Język",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -445,7 +458,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Informacje prawne i wsparcie",
       "index_lead": "Publiczne strony do listingów App Store / Play.",
       "index_support_strong": "Wsparcie:",
-      "index_privacy_strong": "Prywatność:"
+      "index_privacy_strong": "Prywatność:",
+      "index_guide_strong": "Przewodnik:"
     },
     "index": {
       "tag": "Nagrywanie wieloma kamerami w lokalnej sieci Wi‑Fi — bez chmury."
@@ -498,6 +512,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Início",
       "nav_support": "Assistência",
       "nav_privacy": "Política de privacidade",
+      "nav_guide": "Guia",
       "lang_label": "Idioma",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -506,7 +521,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Informações legais e assistência",
       "index_lead": "Páginas públicas para as fichas da App Store / Play.",
       "index_support_strong": "Assistência:",
-      "index_privacy_strong": "Privacidade:"
+      "index_privacy_strong": "Privacidade:",
+      "index_guide_strong": "Guia:"
     },
     "index": {
       "tag": "Filmagem multi-câmara em Wi‑Fi local — sem cloud."
@@ -559,6 +575,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Início",
       "nav_support": "Suporte",
       "nav_privacy": "Política de privacidade",
+      "nav_guide": "Guia",
       "lang_label": "Idioma",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -567,7 +584,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Informações legais e suporte",
       "index_lead": "Páginas públicas para as fichas da App Store / Play.",
       "index_support_strong": "Suporte:",
-      "index_privacy_strong": "Privacidade:"
+      "index_privacy_strong": "Privacidade:",
+      "index_guide_strong": "Guia:"
     },
     "index": {
       "tag": "Filmagem multicâmera em Wi‑Fi local — sem nuvem."
@@ -620,6 +638,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Αρχική",
       "nav_support": "Υποστήριξη",
       "nav_privacy": "Πολιτική απορρήτου",
+      "nav_guide": "Οδηγός",
       "lang_label": "Γλώσσα",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -628,7 +647,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Νομικά & υποστήριξη",
       "index_lead": "Δημόσιες σελίδες για καταχωρίσεις App Store / Play.",
       "index_support_strong": "Υποστήριξη:",
-      "index_privacy_strong": "Απόρρητο:"
+      "index_privacy_strong": "Απόρρητο:",
+      "index_guide_strong": "Οδηγός:"
     },
     "index": {
       "tag": "Πολυκάμερα λήψη σε τοπικό Wi‑Fi — χωρίς cloud."
@@ -681,6 +701,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "Ana sayfa",
       "nav_support": "Destek",
       "nav_privacy": "Gizlilik Politikası",
+      "nav_guide": "Kılavuz",
       "lang_label": "Dil",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -689,7 +710,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "Yasal & destek",
       "index_lead": "App Store / Play listeleme için herkese açık sayfalar.",
       "index_support_strong": "Destek:",
-      "index_privacy_strong": "Gizlilik:"
+      "index_privacy_strong": "Gizlilik:",
+      "index_guide_strong": "Kılavuz:"
     },
     "index": {
       "tag": "Yerel Wi‑Fi’de çok kameralı çekim — bulut yok."
@@ -742,6 +764,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "ホーム",
       "nav_support": "サポート",
       "nav_privacy": "プライバシーポリシー",
+      "nav_guide": "ガイド",
       "lang_label": "言語",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -750,7 +773,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "法的情報とサポート",
       "index_lead": "App Store / Play掲載用の公開ページ。",
       "index_support_strong": "サポート:",
-      "index_privacy_strong": "プライバシー:"
+      "index_privacy_strong": "プライバシー:",
+      "index_guide_strong": "ガイド:"
     },
     "index": {
       "tag": "ローカルWi‑Fiでのマルチカメラ撮影 — クラウドなし。"
@@ -803,6 +827,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "홈",
       "nav_support": "지원",
       "nav_privacy": "개인정보 처리방침",
+      "nav_guide": "가이드",
       "lang_label": "언어",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -811,7 +836,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "법률 및 지원",
       "index_lead": "App Store / Play 등록용 공개 페이지.",
       "index_support_strong": "지원:",
-      "index_privacy_strong": "개인정보:"
+      "index_privacy_strong": "개인정보:",
+      "index_guide_strong": "가이드:"
     },
     "index": {
       "tag": "로컬 Wi‑Fi 멀티 카메라 촬영 — 클라우드 없음."
@@ -864,6 +890,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "หน้าแรก",
       "nav_support": "การสนับสนุน",
       "nav_privacy": "นโยบายความเป็นส่วนตัว",
+      "nav_guide": "คู่มือ",
       "lang_label": "ภาษา",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -872,7 +899,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "ข้อมูลทางกฎหมายและการสนับสนุน",
       "index_lead": "หน้าสาธารณะสำหรับรายการ App Store / Play",
       "index_support_strong": "การสนับสนุน:",
-      "index_privacy_strong": "ความเป็นส่วนตัว:"
+      "index_privacy_strong": "ความเป็นส่วนตัว:",
+      "index_guide_strong": "คู่มือ:"
     },
     "index": {
       "tag": "ถ่ายหลายกล้องบน Wi‑Fi ในเครื่อง — ไม่มีคลาวด์"
@@ -925,6 +953,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "首页",
       "nav_support": "支持",
       "nav_privacy": "隐私政策",
+      "nav_guide": "指南",
       "lang_label": "语言",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -933,7 +962,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "法律与支持",
       "index_lead": "面向 App Store / Play 上架的公开页面。",
       "index_support_strong": "支持：",
-      "index_privacy_strong": "隐私："
+      "index_privacy_strong": "隐私：",
+      "index_guide_strong": "指南："
     },
     "index": {
       "tag": "本地 Wi‑Fi 多机位拍摄 — 无云端。"
@@ -986,6 +1016,7 @@ window.VW_LEGAL_I18N = {
       "nav_home": "首頁",
       "nav_support": "支援",
       "nav_privacy": "隱私權政策",
+      "nav_guide": "指南",
       "lang_label": "語言",
       "index_title": "ViewWeave — Legal",
       "privacy_title": "ViewWeave — Privacy Policy",
@@ -994,7 +1025,8 @@ window.VW_LEGAL_I18N = {
       "index_h1": "法律與支援",
       "index_lead": "供 App Store / Play 上架用的公開頁面。",
       "index_support_strong": "支援：",
-      "index_privacy_strong": "隱私："
+      "index_privacy_strong": "隱私：",
+      "index_guide_strong": "指南："
     },
     "index": {
       "tag": "本地 Wi‑Fi 多機位拍攝 — 無雲端。"

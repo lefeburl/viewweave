@@ -27,11 +27,23 @@ LOCALES = [
 ]
 
 
-def ui(home, support, privacy, language, legal_support, public_pages, support_label, privacy_label):
+def ui(
+    home,
+    support,
+    privacy,
+    language,
+    legal_support,
+    public_pages,
+    support_label,
+    privacy_label,
+    guide="Guide",
+    guide_label="Guide:",
+):
     return {
         "nav_home": home,
         "nav_support": support,
         "nav_privacy": privacy,
+        "nav_guide": guide,
         "lang_label": language,
         "index_title": "ViewWeave — Legal",
         "privacy_title": "ViewWeave — Privacy Policy",
@@ -41,6 +53,7 @@ def ui(home, support, privacy, language, legal_support, public_pages, support_la
         "index_lead": public_pages,
         "index_support_strong": support_label,
         "index_privacy_strong": privacy_label,
+        "index_guide_strong": guide_label,
     }
 
 
@@ -73,6 +86,8 @@ T["en"] = pack(
         "Public pages for App Store / Play listing.",
         "Support:",
         "Privacy:",
+        "Guide",
+        "Guide:",
     ),
     "Multi-camera filming on local Wi‑Fi — no cloud.",
     P(
@@ -129,6 +144,8 @@ T["fr"] = pack(
         "Pages publiques pour les fiches App Store / Play.",
         "Assistance :",
         "Confidentialité :",
+        "Guide",
+        "Guide :",
     ),
     "Captation multi-caméras en Wi‑Fi local — sans cloud.",
     P(
