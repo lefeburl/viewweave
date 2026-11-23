@@ -6,9 +6,31 @@ Pages statiques pour App Store Connect / Play Console.
 
 | Fichier | Usage App Store |
 |---|---|
-| `support.html` | **URL de l’assistance** |
-| `privacy.html` | **URL de la Politique de confidentialité** |
+| `support.html` | **URL de l’assistance** (point d’entrée) |
+| `privacy.html` | **URL de la Politique de confidentialité** (point d’entrée) |
 | `index.html` | Hub optionnel |
+| `js/i18n.js` | Traductions (mêmes langues que l’app) |
+| `js/legal.js` | Sélecteur de langue + rendu |
+
+## Langues
+
+Sélecteur en haut à droite sur chaque page. **Défaut = English**.
+
+Langues : `en`, `de`, `el`, `es`, `fr`, `it`, `ja`, `ko`, `nl`, `pl`, `pt`, `pt_BR`, `th`, `tr`, `zh`, `zh_TW`.
+
+- Persistance : `localStorage` (`vw_legal_lang`)
+- Lien direct : `privacy.html?lang=fr`, `support.html?lang=ja`, etc.
+
+Le contenu anglais reste dans le HTML (fallback sans JS).
+
+## Régénérer les traductions
+
+```bash
+cd docs/legal/js
+python3 _gen_i18n.py
+```
+
+Sources : `_gen_i18n.py` (en + fr) + `_i18n_data.json` (autres locales).
 
 ## Avant publication
 
@@ -20,7 +42,7 @@ Pages statiques pour App Store Connect / Play Console.
 ### Option A — dépôt dédié (simple)
 
 1. Crée un dépôt GitHub **public** `viewweave-legal`.
-2. Copie le contenu de ce dossier à la racine du dépôt.
+2. Copie le contenu de ce dossier à la racine du dépôt (y compris `js/`).
 3. Settings → **Pages** → Source: Deploy from a branch → `main` / `(root)`.
 4. URLs (exemple) :
    - Support : `https://TON_PSEUDO.github.io/viewweave-legal/support.html`

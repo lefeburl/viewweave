@@ -31,6 +31,13 @@ header {
   border-bottom: 1px solid var(--line);
 }
 
+.header-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
 .brand {
   font-size: 1.35rem;
   font-weight: 700;
@@ -42,6 +49,36 @@ header {
   margin: 0;
   color: var(--mist);
   font-size: 0.95rem;
+}
+
+.lang-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 4px;
+  flex-shrink: 0;
+}
+
+.lang-wrap label {
+  font-size: 0.75rem;
+  color: var(--mist);
+}
+
+.lang-wrap select {
+  appearance: none;
+  background: var(--panel);
+  color: var(--text);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 28px 8px 10px;
+  font-size: 0.9rem;
+  min-width: 9.5rem;
+  background-image: linear-gradient(45deg, transparent 50%, var(--mist) 50%),
+    linear-gradient(135deg, var(--mist) 50%, transparent 50%);
+  background-position: calc(100% - 14px) 55%, calc(100% - 9px) 55%;
+  background-size: 5px 5px, 5px 5px;
+  background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 nav {
@@ -91,4 +128,13 @@ footer {
   border-top: 1px solid var(--line);
   color: var(--mist);
   font-size: 0.85rem;
+}
+
+@media (max-width: 480px) {
+  .header-top {
+    flex-direction: column;
+  }
+  .lang-wrap {
+    align-items: flex-start;
+  }
 }

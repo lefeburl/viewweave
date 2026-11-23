@@ -8,16 +8,24 @@
 </head>
 <body>
   <header>
-    <p class="brand">ViewWeave</p>
-    <p class="tag">Support</p>
+    <div class="header-top">
+      <div>
+        <p class="brand">ViewWeave</p>
+        <p class="tag" id="page-tag">Support</p>
+      </div>
+      <div class="lang-wrap">
+        <label for="lang-select" id="lang-label">Language</label>
+        <select id="lang-select" aria-label="Language"></select>
+      </div>
+    </div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="privacy.html">Privacy Policy</a>
+      <a href="index.html" id="nav-home">Home</a>
+      <a href="privacy.html" id="nav-privacy">Privacy Policy</a>
     </nav>
   </header>
   <main>
-    <h1>Support</h1>
-    <p>
+    <h1 id="support-h1">Support</h1>
+    <p id="support-intro">
       ViewWeave lets you film the same scene with several phones on a
       <strong>local Wi‑Fi or hotspot</strong>. One Master starts/stops recording;
       other phones join as Cameras. Footage stays on your devices — there is
@@ -25,20 +33,22 @@
     </p>
 
     <div class="card">
-      <p><strong>Contact</strong></p>
+      <p><strong id="support-contact">Contact</strong></p>
       <p class="email"><a href="mailto:viewweave78@gmail.com">viewweave78@gmail.com</a></p>
     </div>
 
-    <h2>Common topics</h2>
+    <h2 id="support-h2">Common topics</h2>
     <ul>
-      <li><strong>Join session:</strong> same Wi‑Fi/hotspot as the Master, then scan the QR (or enter IP / link).</li>
-      <li><strong>Library / rushes:</strong> stored in the app sandbox on the Master. Uninstalling the app deletes them.</li>
-      <li><strong>Basic license:</strong> 7-day Basic trial, then Free. Unlock Basic via in-app purchase (App Store / Play) or Restore purchases.</li>
-      <li><strong>Free limits:</strong> up to 2 phones per session; Free exports use 720p with a small watermark.</li>
+      <li id="support-li-a"><strong>Join session:</strong> same Wi‑Fi/hotspot as the Master, then scan the QR (or enter IP / link).</li>
+      <li id="support-li-b"><strong>Library / rushes:</strong> stored in the app sandbox on the Master. Uninstalling the app deletes them.</li>
+      <li id="support-li-c"><strong>Basic license:</strong> 7-day Basic trial, then Free. Unlock Basic via in-app purchase (App Store / Play) or Restore purchases.</li>
+      <li id="support-li-d"><strong>Free limits:</strong> up to 2 phones per session; Free exports use 720p with a small watermark.</li>
     </ul>
   </main>
   <footer>
-    <p>© 2026 ViewWeave · <a href="privacy.html">Privacy Policy</a></p>
+    <p><span id="footer-copy">© 2026 ViewWeave</span> · <a href="privacy.html" id="footer-privacy">Privacy Policy</a></p>
   </footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/legal.js"></script>
 </body>
 </html>

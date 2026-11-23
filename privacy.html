@@ -8,89 +8,99 @@
 </head>
 <body>
   <header>
-    <p class="brand">ViewWeave</p>
-    <p class="tag">Privacy Policy</p>
+    <div class="header-top">
+      <div>
+        <p class="brand">ViewWeave</p>
+        <p class="tag" id="page-tag">Privacy Policy</p>
+      </div>
+      <div class="lang-wrap">
+        <label for="lang-select" id="lang-label">Language</label>
+        <select id="lang-select" aria-label="Language"></select>
+      </div>
+    </div>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="support.html">Support</a>
+      <a href="index.html" id="nav-home">Home</a>
+      <a href="support.html" id="nav-support">Support</a>
     </nav>
   </header>
   <main>
-    <h1>Privacy Policy</h1>
-    <p class="note">Effective date: 15 November 2026</p>
+    <h1 id="privacy-h1">Privacy Policy</h1>
+    <p class="note" id="privacy-effective">Effective date: 15 November 2026</p>
 
-    <p>
+    <p id="privacy-intro">
       This policy describes how the <strong>ViewWeave</strong> mobile app
       (“the App”) handles information. ViewWeave is a local multi-camera
       filming tool. It does <strong>not</strong> operate a ViewWeave cloud
       backend for your videos.
     </p>
 
-    <h2>1. Who we are</h2>
-    <p>
+    <h2 id="privacy-h2-1">1. Who we are</h2>
+    <p id="privacy-p-1">
       ViewWeave is published as an independent app (bundle ID
       <code>com.viewweave.app</code>).
       Contact:
       <a href="mailto:viewweave78@gmail.com">viewweave78@gmail.com</a>.
     </p>
 
-    <h2>2. Data the App stores on your device</h2>
+    <h2 id="privacy-h2-2">2. Data the App stores on your device</h2>
     <ul>
-      <li><strong>Videos and library metadata</strong> created by you (sessions, takes, edits) — stored in the app’s private documents / media folders on the device.</li>
-      <li><strong>License state</strong> (trial / Free / Basic) in a local file on the device.</li>
-      <li><strong>Preferences</strong> such as export settings, also stored locally.</li>
+      <li id="privacy-li-2a"><strong>Videos and library metadata</strong> created by you (sessions, takes, edits) — stored in the app’s private documents / media folders on the device.</li>
+      <li id="privacy-li-2b"><strong>License state</strong> (trial / Free / Basic) in a local file on the device.</li>
+      <li id="privacy-li-2c"><strong>Preferences</strong> such as export settings, also stored locally.</li>
     </ul>
-    <p>
+    <p id="privacy-p-2">
       Uninstalling the App deletes this sandbox data. We do not receive a copy
       of your videos on ViewWeave servers.
     </p>
 
-    <h2>3. Local network</h2>
-    <p>
+    <h2 id="privacy-h2-3">3. Local network</h2>
+    <p id="privacy-p-3">
       When you run a multi-phone session, devices communicate on your
       <strong>local Wi‑Fi or hotspot</strong> (HTTP on the LAN) to sync capture
       and transfer rushes to the Master. This traffic stays on your network;
       it is not uploaded to a ViewWeave cloud.
     </p>
 
-    <h2>4. Purchases (Basic)</h2>
-    <p>
+    <h2 id="privacy-h2-4">4. Purchases (Basic)</h2>
+    <p id="privacy-p-4">
       Unlocking <strong>Basic</strong> uses Apple App Store / Google Play
       in-app purchase. Payment data is processed by Apple or Google under their
       privacy policies. ViewWeave does not receive your full payment card details.
     </p>
 
-    <h2>5. What we do not do</h2>
+    <h2 id="privacy-h2-5">5. What we do not do</h2>
     <ul>
-      <li>No ViewWeave user account required to film.</li>
-      <li>No sale of personal data.</li>
-      <li>No advertising ID tracking for ads in the App.</li>
-      <li>No analytics / crash cloud service is required for core filming (if platform diagnostics are enabled by you in iOS/Android settings, that is controlled by the OS vendors).</li>
+      <li id="privacy-li-5a">No ViewWeave user account required to film.</li>
+      <li id="privacy-li-5b">No sale of personal data.</li>
+      <li id="privacy-li-5c">No advertising ID tracking for ads in the App.</li>
+      <li id="privacy-li-5d">No analytics / crash cloud service is required for core filming (if platform diagnostics are enabled by you in iOS/Android settings, that is controlled by the OS vendors).</li>
     </ul>
 
-    <h2>6. Children</h2>
-    <p>
+    <h2 id="privacy-h2-6">6. Children</h2>
+    <p id="privacy-p-6">
       The App is not directed at children under 13 (or the equivalent minimum
       age in your country). Do not use it to provide personal data of children
       to us.
     </p>
 
-    <h2>7. Your choices</h2>
+    <h2 id="privacy-h2-7">7. Your choices</h2>
     <ul>
-      <li>Delete library items inside the App.</li>
-      <li>Uninstall the App to remove local sandbox data.</li>
-      <li>Manage App Store / Play purchases and subscriptions (if any) in your store account settings.</li>
-      <li>Contact us to ask questions about this policy.</li>
+      <li id="privacy-li-7a">Delete library items inside the App.</li>
+      <li id="privacy-li-7b">Uninstall the App to remove local sandbox data.</li>
+      <li id="privacy-li-7c">Manage App Store / Play purchases and subscriptions (if any) in your store account settings.</li>
+      <li id="privacy-li-7d">Contact us to ask questions about this policy.</li>
     </ul>
 
-    <h2>8. Changes</h2>
-    <p>
+    <h2 id="privacy-h2-8">8. Changes</h2>
+    <p id="privacy-p-8">
       We may update this page when the App’s practices change. The effective
       date at the top will be revised.
     </p>
   </main>
   <footer>
-    <p>© 2026 ViewWeave · <a href="support.html">Support</a></p>
+    <p><span id="footer-copy">© 2026 ViewWeave</span> · <a href="support.html" id="footer-support">Support</a></p>
   </footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/legal.js"></script>
 </body>
 </html>

@@ -8,23 +8,33 @@
 </head>
 <body>
   <header>
-    <p class="brand">ViewWeave</p>
-    <p class="tag">Multi-camera filming on local Wi‑Fi — no cloud.</p>
+    <div class="header-top">
+      <div>
+        <p class="brand">ViewWeave</p>
+        <p class="tag" id="page-tag">Multi-camera filming on local Wi‑Fi — no cloud.</p>
+      </div>
+      <div class="lang-wrap">
+        <label for="lang-select" id="lang-label">Language</label>
+        <select id="lang-select" aria-label="Language"></select>
+      </div>
+    </div>
     <nav>
-      <a href="support.html">Support</a>
-      <a href="privacy.html">Privacy Policy</a>
+      <a href="support.html" id="nav-support">Support</a>
+      <a href="privacy.html" id="nav-privacy">Privacy Policy</a>
     </nav>
   </header>
   <main>
-    <h1>Legal &amp; support</h1>
-    <p>Public pages for App Store / Play listing.</p>
+    <h1 id="index-h1">Legal &amp; support</h1>
+    <p id="index-lead">Public pages for App Store / Play listing.</p>
     <div class="card">
-      <p><strong>Support:</strong> <a href="support.html">support.html</a></p>
-      <p><strong>Privacy:</strong> <a href="privacy.html">privacy.html</a></p>
+      <p><strong id="index-support-strong">Support:</strong> <a href="support.html">support.html</a></p>
+      <p><strong id="index-privacy-strong">Privacy:</strong> <a href="privacy.html">privacy.html</a></p>
     </div>
   </main>
   <footer>
-    <p>© 2026 ViewWeave</p>
+    <p id="footer-copy">© 2026 ViewWeave</p>
   </footer>
+  <script src="js/i18n.js"></script>
+  <script src="js/legal.js"></script>
 </body>
 </html>
