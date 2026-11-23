@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ViewWeave — User guide</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body class="guide-page">
+  <div class="store-banner">
+    <img id="store-banner-img" src="../headers/asc_header_en_3840x1646.jpg" alt="ViewWeave" width="420" height="180" />
+  </div>
+  <header>
+    <div class="header-top">
+      <div>
+        <p class="brand">ViewWeave</p>
+        <p class="tag" id="page-tag">User guide</p>
+      </div>
+      <div class="lang-wrap">
+        <label for="lang-select" id="lang-label">Language</label>
+        <select id="lang-select" aria-label="Language"></select>
+      </div>
+    </div>
+    <nav>
+      <a href="../index.html" id="nav-home">Home</a>
+      <a href="index.html" id="nav-guide">Guide</a>
+      <a href="../support.html" id="nav-support">Support</a>
+      <a href="../privacy.html" id="nav-privacy">Privacy Policy</a>
+    </nav>
+  </header>
+  <main>
+    <h1 id="guide-h1">User guide</h1>
+    <p class="note" id="guide-lead">Film the same scene with several phones on local Wi‑Fi — no cloud.</p>
+
+    <section class="card" id="guide-videos-section">
+      <h2 id="guide-videos-h2">Video walkthrough</h2>
+      <div class="video-grid" id="guide-videos"></div>
+    </section>
+
+    <nav class="toc card" id="guide-toc" aria-label="Table of contents"></nav>
+
+    <div id="guide-body">
+      <!-- English fallback; replaced by i18n when JS runs -->
+      <section id="s1">
+        <h2>1. In one sentence</h2>
+        <p>ViewWeave films the <strong>same scene with several phones</strong> on <strong>local Wi‑Fi</strong> (no cloud): a <strong>Master</strong> orchestrates, <strong>Cameras</strong> shoot; rushes return to the Master to <strong>edit</strong> and <strong>export</strong>.</p>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <p><span id="footer-copy">© 2026 ViewWeave</span> · <a href="../support.html" id="footer-support">Support</a> · <a href="../privacy.html" id="footer-privacy">Privacy Policy</a></p>
+  </footer>
+
+  <div id="video-modal" class="video-modal" hidden>
+    <div class="video-modal-backdrop" data-close-modal></div>
+    <div class="video-modal-dialog" role="dialog" aria-modal="true" aria-labelledby="video-modal-title">
+      <div class="video-modal-head">
+        <h3 id="video-modal-title" class="video-modal-title"></h3>
+        <button type="button" class="video-modal-close" data-close-modal aria-label="Close">&times;</button>
+      </div>
+      <video id="video-modal-player" controls playsinline></video>
+    </div>
+  </div>
+
+  <script src="../js/i18n.js"></script>
+  <script src="../js/guide_i18n.js"></script>
+  <script src="../js/legal.js"></script>
+</body>
+</html>
